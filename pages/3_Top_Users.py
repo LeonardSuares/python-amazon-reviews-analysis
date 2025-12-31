@@ -25,3 +25,9 @@ plt.xticks(rotation=45)
 st.pyplot(fig)
 
 st.table(top_10)
+
+st.divider()
+st.subheader("📅 Review Volume Over Time")
+# Resample to yearly counts
+df_time = df.set_index('Time').resample('YE')['ProductId'].count()
+st.line_chart(df_time)
