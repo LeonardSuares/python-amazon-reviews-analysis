@@ -1,6 +1,6 @@
 # 🛒 Amazon User Reviews Analysis Dashboard
 
-**Live Application:** [View on Streamlit Cloud](https://amazon-reviews-analysis-fpn7avhj8gxxcfeayq595h.streamlit.app/Sentiment_Analysis)
+**Live Application:** [View on Streamlit Cloud](https://amazon-reviews-analysis-fpn7avhj8gxxcfeayq595h.streamlit.app/)
 
 ## 📖 Project Overview
 This project is a high-performance, interactive Streamlit dashboard designed for analyzing over 250,000 Amazon fine food reviews. It demonstrates advanced data engineering techniques, such as Parquet conversion for efficiency, a multi-page app architecture, and natural language processing for sentiment analysis.
